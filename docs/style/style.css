@@ -5,6 +5,23 @@
     color: #ffffff;
 }
 
+#header h1{
+    padding-top: 30px;
+}
+
+p{
+    padding: 15px;
+}
+
+#sercher{
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+
+#searching{
+    padding-bottom: 30px;
+}
+
 .flexCon{
 	display: flex;
     flex-wrap: wrap;
@@ -12,10 +29,30 @@
     align-items: center;
 }
 .flexCon > p {
-	margin: 0 1% 2em 1%;
+    /* margin: 0 1% 2em 1%; */
+    margin: 0 auto;
+    margin-top: 10px;
     max-width: 55%;
     min-width: 15%;
     padding: 5px;
     background: darkblue;
+    border-radius: 10px;
     color: #ffffff;
 }
+
+.flexCon > h3 {
+	margin: 0 auto;
+    max-width: 55%;
+    min-width: 15%;
+    padding: 5px;
+    background: #ffffff;
+    border-radius: 10px;
+    color: cornflowerblue;
+}
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
