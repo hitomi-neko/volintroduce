@@ -1,3 +1,20 @@
-.header{
+#header{
     text-align: center;
+    margin: 0 auto;
+    background: cornflowerblue;
+    color: #ffffff;
+}
+
+.flexCon{
+	display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+}
+.flexCon > p {
+	margin: 0 1% 2em 1%;
+    max-width: 40%;
+    min-width: 15%;
+    background: darkblue;
+    color: #ffffff;
 }
