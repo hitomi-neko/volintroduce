@@ -47,6 +47,29 @@ h2{
     color: #ffffff;
 }
 
+.flexItem{
+    width: 210px;
+    height: 250px;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.flexItem > p {
+    /* margin: 0 1% 2em 1%; */
+    font-size: 0.75rem;
+    margin: 0 auto;
+    margin-top: 0px;
+    /* max-width: 55%;
+    min-width: 15%; */
+    color: #ffffff;
+}
+
+.flexItem > img{
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+
 .flexCon > h3 {
 	margin: 0 auto;
     max-width: 55%;
@@ -62,6 +85,10 @@ h2{
 }
 
 .flexCon > p:hover{
+    opacity: 0.5;
+}
+
+.flexItem:hover{
     opacity: 0.5;
 }
 
