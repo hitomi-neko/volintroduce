@@ -188,7 +188,7 @@ h2{
     /* height: auto; */
     margin: 0 auto;
     background: #ffffff;
-    /* border-radius: 15px; */
+    border-radius: 15px;
     max-height: calc(100vh - 30px);
     overflow-y: scroll;
 }
@@ -198,7 +198,8 @@ h2{
     width: 80%;
     height: auto;
     margin: 0 auto;
-    padding-bottom: 40px;
+    border-radius: 10px;
+    margin-bottom: 40px;
 }
 
 .modalTtl{
