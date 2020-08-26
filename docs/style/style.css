@@ -98,6 +98,7 @@ h2{
     text-align: center;
     align-items: center;
 }
+
 .flexCon > p {
     /* margin: 0 1% 2em 1%; */
     margin: 0 auto;
@@ -121,6 +122,7 @@ h2{
     margin-bottom: 10px;
     background: #ffffff;
 }
+
 .flexItem > p {
     /* margin: 0 1% 2em 1%; */
     font-size: 0.75rem;

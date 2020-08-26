@@ -7,6 +7,7 @@ for (let i = 1; i < 2; i++) {
         let mimage = document.getElementById('image' + i);
         let closeBtn = document.getElementById('closeBtn' + i);
         let body = document.body;
+        let main = document.getElementById('main');
         modal.classList.remove('modalWrap');
         modal.classList.add('modalOpen');
         mcon.classList.add('modalCon');
@@ -20,6 +21,8 @@ for (let i = 1; i < 2; i++) {
         closeBtn.classList.add('modalCloseBtn');
         closeBtn.classList.remove('modalWrap');
         body.style.overflow = 'hidden';
+        main.style.opacity = '0.5';
+        main.style.filter = 'blur(3px)';
         closePopUp(closeBtn);
         function closePopUp(elem) {
             if (!elem) return;
@@ -37,6 +40,8 @@ for (let i = 1; i < 2; i++) {
                 closeBtn.classList.remove('modalCloseBtn');
                 closeBtn.classList.add('modalWrap');
                 body.style.overflow = 'visible';
+                main.style.opacity = '1.0';
+                main.style.filter = 'blur(0px)';
             })
         }
     };
