@@ -170,46 +170,50 @@ h2{
 }
 
 .modalOpen{
-     position: fixed;
-     top: 0;
-     left: 0;
-     padding:0;
-     margin: 0;
-     width: 100%;
-     height: 100%;
-     z-index: 100;
-     display: flex;
-     justify-content: center;
-     align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding:0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .modalCon{
-    width: 80%;
+    width: 85%;
+    /* height: auto; */
     margin: 0 auto;
     background: #ffffff;
+    max-height: calc(100vh - 30px);
+    overflow-y: scroll;
 }
 
 .modalCover{
-    width: 60%;
+    display: block;
+    width: 80%;
     height: auto;
     margin: 0 auto;
 }
 
 .modalTtl{
-    width: 60%;
+    width: 80%;
     text-align: left;
     margin: 0 auto;
 }
 
 .modalText{
     font-size: 0.70rem;
-    width: 70%;
+    width: 80%;
     text-align: left;
     margin: 0 auto;
 }
 
 .modalCloseBtn{
-    width: 70%;
+    width: 80%;
     text-align: right;
     margin: 0 auto;
 }
