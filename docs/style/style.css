@@ -203,10 +203,12 @@ h2{
     width: 80%;
     text-align: left;
     margin: 0 auto;
+    font-size: 1.7rem;
 }
 
 .modalText{
-    font-size: 0.70rem;
+    font-size: 0.75rem;
+    padding-bottom: 20px;
     width: 80%;
     text-align: left;
     margin: 0 auto;
