@@ -1,12 +1,19 @@
 #header{
     text-align: center;
     margin: 0 auto;
-    background: cornflowerblue;
+    /* background: cornflowerblue; */
     color: #ffffff;
+    height: 90vh;
+    background: url(../image/top2.jpg) center / cover;
+}
+
+#header::before{
+    position: fixed;
+    height: 90vh;
 }
 
 #header h1{
-    padding-top: 30px;
+    padding-top: 30vh;
 }
 
 p{
@@ -79,7 +86,7 @@ h2{
     padding: 5px;
     background: #ffffff;
     border-radius: 10px;
-    color: cornflowerblue;
+    color: #555555;
 }
 
 .flexCon > h3:hover{
